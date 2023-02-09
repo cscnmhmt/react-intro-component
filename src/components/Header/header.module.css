@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 2.3rem;
+  margin-top: 4rem;
+}
+
+.description {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    width: 35%;
+    padding-right: 1rem;
+    text-align: left;
+  }
+  .title {
+    font-size: 56px;
+    line-height: 4rem;
+  }
+  .description {
+    font-size: 18px;
+  }
+}
